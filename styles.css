@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: jersey;
+  src: url(font/Jersey10-Regular.ttf) format(truetype);
+}
+body {
+  background-color: #7b8a9a;
+  font-family: "jersey";
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+h1,
+p {
+  color: #333333;
+}
+h1 {
+  font-size: 7rem;
+}
+p {
+  font-size: 1.5rem;
+}
+span {
+  color: rgb(255, 251, 25);
+}
+.start {
+  color: #1e7d4a;
+  font-size: 5rem;
+  padding: 1rem 0 2rem 0;
+}
+button {
+  color: #f0f8ff;
+  background-color: #007bff;
+  width: 14rem;
+  height: 5rem;
+  font-size: 2.5rem;
+  border: 2px solid #000;
+  font-family: "jersey";
+}
+button:hover {
+  background-color: #0056b3;
+}
+input {
+  width: 14rem;
+  height: 5rem;
+  font-size: 2.5rem;
+  border: 2px solid #000;
+  text-align: center;
+  font-family: "jersey";
+}
+.scores {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0 2rem 0;
+}
+.scores p {
+  font-size: 3rem;
+}
